@@ -1,0 +1,159 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar{
+    width: 100vw;
+    background: linear-gradient(45deg, rgb(43, 43, 72), lightcoral);
+    padding: 20px;
+    position: fixed;
+    top: 0px;
+}
+.navbar a{
+    color: wheat;
+    margin-right: 100px;
+    padding: 10px;
+    text-decoration: none;
+}
+.navbar a:hover{
+    background-color: burlywood;
+    border-radius: 20px;
+    color: black;
+}
+.card{
+    position: relative;
+    height: 250px;
+    width: 166px;
+    transform-style: preserve-3d;
+    transition: transform 1s;
+}
+.back{
+    padding-top: 50px;
+    text-align: center;
+    transform: rotateY(180deg);
+}
+.cardFace{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    backface-visibility: hidden;
+}
+.card:hover{
+    transform: rotateY(180deg);
+}
+.sdg{
+    margin-top: 50px;
+    height: 50%;
+    width: 100%;
+    display: flex;
+    gap: 0px;
+    flex-wrap: wrap;
+}
+
+.home_page{
+    display: flex;
+    justify-content: space-around;
+    height: 90vh;
+    width: 100vw;
+    margin-top: 59px;
+    padding: 50px;
+    background-color: rgb(43, 43, 72);
+}
+.quote{
+    padding: 30px;
+    width: 40vw;
+    color: silver;
+    font-size: 60px;
+}
+.home_page img{
+    margin: 55px 45px;
+    border-radius: 15px;
+}
+.gyan{
+    width: 60vw;
+    margin: auto;
+    margin-top:100px ;
+    /* text-align: center; */
+}
+#contribution{
+    margin-top: 100px;
+    height: 700px;
+    width: 100vw;
+    background-color: rgb(43, 43, 72);
+}
+#contribution h2{
+    color: burlywood;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+.outer_one{
+    display: flex;
+    justify-content: space-around;
+}
+.one{
+    padding: 10px;
+    margin-top: 30px;
+    border: 2px solid lavender;
+    border-radius: 5px;
+    color: white;
+    width: 25vw;
+    height: 350px;
+}
+.one h4{
+    text-align: center;
+    color: rgb(210, 187, 158);
+}
+.one button{
+    padding: 15px;
+    margin: 20px 150px;
+    border-radius: 20px;
+    background: linear-gradient(45deg, rgb(43, 43, 72), lightcoral);
+}
+.one img{
+    margin-left: 60px;
+}
+.one button a{
+    text-decoration: none;
+    color: blanchedalmond;
+}
+#two{
+    text-align: center;
+    margin: 20px;
+    font-size: 30px;
+    color: #2b2b48;
+}
+
+
+#about_us{
+    height: 400px;
+    width: 100vw;
+    background-color: #2b2b48;
+}
+.group_members{
+    display: flex;
+    justify-content: space-around;
+}
+.members{
+    height: 20vw;
+    width: 20vw;
+    border: 2px solid black;
+}
+.members img{
+    height: 150px;
+    width: 150px;
+}
+
+.footer{
+    text-align: center;
+    color: silver;
+    height: 50px;
+    width: 100vw;
+    background-color: #2b2b48;
+    margin-top: 50px;
+    padding: 30px;
+}
+.footer a{
+    color: silver;
+    /* text-decoration: none; */
+}
